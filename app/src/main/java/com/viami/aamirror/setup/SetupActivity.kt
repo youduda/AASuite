@@ -20,6 +20,7 @@ import androidx.lifecycle.lifecycleScope
 import com.viami.aamirror.R
 import com.viami.aamirror.browser.BrowserDisplay
 import com.viami.aamirror.core.UrlResolver
+import com.viami.aamirror.core.MirrorError
 import com.viami.aamirror.core.MirrorEvent
 import com.viami.aamirror.core.MirrorGateway
 import com.viami.aamirror.core.MirrorState
@@ -125,7 +126,7 @@ class SetupActivity : ComponentActivity() {
             state.isMirroring -> getString(R.string.status_mirroring)
             state.projection == ProjectionStatus.ACTIVE -> getString(R.string.status_ready)
             state.projection == ProjectionStatus.REQUESTED -> getString(R.string.status_waiting)
-            state.lastError != null -> state.lastError
+            state.lastError == MirrorError.PERMISSION_DENIED -> getString(R.string.capture_permission_denied)
             else -> getString(R.string.status_idle)
         }
         findViewById<TextView>(R.id.txt_accessibility).text =

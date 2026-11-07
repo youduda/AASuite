@@ -1,11 +1,12 @@
 package com.viami.aamirror.core
 
 enum class ProjectionStatus { NONE, REQUESTED, ACTIVE }
+enum class MirrorError { PERMISSION_DENIED }
 
 data class MirrorState(
     val projection: ProjectionStatus = ProjectionStatus.NONE,
     val surfaceAttached: Boolean = false,
-    val lastError: String? = null,
+    val lastError: MirrorError? = null,
 ) {
     val isMirroring: Boolean
         get() = projection == ProjectionStatus.ACTIVE && surfaceAttached
@@ -28,7 +29,7 @@ fun MirrorState.reduce(event: MirrorEvent): MirrorState = when (event) {
     MirrorEvent.ProjectionStopped ->
         copy(projection = ProjectionStatus.NONE)
     MirrorEvent.PermissionDenied ->
-        copy(projection = ProjectionStatus.NONE, lastError = "Permesso di cattura negato")
+        copy(projection = ProjectionStatus.NONE, lastError = MirrorError.PERMISSION_DENIED)
     MirrorEvent.SurfaceAvailable ->
         copy(surfaceAttached = true)
     MirrorEvent.SurfaceDestroyed ->

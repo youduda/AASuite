@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AA Share</string>
+    <string name="sent_ok">An das Auto gesendet ✓</string>
+    <string name="send_failed">Das Smartphone im Auto ist nicht erreichbar: Mit seinem Hotspot verbinden und AA Suite im Auto öffnen</string>
+    <string name="no_text">Nichts zum Teilen</string>
+    <string name="no_url_in_text">Kein Link im geteilten Text</string>
+</resources>

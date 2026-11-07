@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Default English strings -->
     <string name="app_name">AA Share</string>
-    <string name="sent_ok">Inviato all\'auto ✓</string>
-    <string name="send_failed">Non raggiungo il telefono dell\'auto: collegati al suo hotspot e apri AA Suite sull\'auto</string>
-    <string name="no_text">Niente da condividere</string>
-    <string name="no_url_in_text">Nessun link nel testo condiviso</string>
+    <string name="sent_ok">Sent to the car</string>
+    <string name="send_failed">Cannot reach the phone in the car: connect to its hotspot and open AA Suite in the car</string>
+    <string name="no_text">Nothing to share</string>
+    <string name="no_url_in_text">No link in the shared text</string>
 </resources>

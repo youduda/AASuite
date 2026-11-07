@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AA Suite</string>
+
+    <string name="notification_channel">Bildschirmspiegelung aktiv</string>
+    <string name="notification_mirroring">Bildschirm wird gespiegelt</string>
+    <string name="notification_stop">Beenden</string>
+    <string name="notification_channel_start">Startanfrage</string>
+    <string name="start_request_title">AA Suite</string>
+    <string name="start_request_text">Tippen, um die Bildschirmfreigabe zu erlauben</string>
+
+    <string name="menu_mirror">Bildschirmspiegelung</string>
+    <string name="menu_mirror_short">Spiegelung</string>
+    <string name="menu_browser_short">Browser</string>
+    <string name="menu_youtube_short">YouTube</string>
+    <string name="menu_browser">Webbrowser</string>
+    <string name="menu_youtube">YouTube Cast</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_layout">Menüansicht</string>
+    <string name="layout_row_grid">Raster – tippen für Listenansicht</string>
+    <string name="layout_row_list">Liste – tippen für Rasteransicht</string>
+    <string name="menu_rotation">Querformat sperren</string>
+    <string name="rotation_row_on">Aktiv – zum Deaktivieren tippen</string>
+    <string name="rotation_row_off">Inaktiv – tippen, um Querformat zu erzwingen</string>
+    <string name="menu_fill">Bildschirm ausfüllen (Spiegelung)</string>
+    <string name="fill_row_on">Aktiv – Bildschirm wird ausgefüllt, Ränder werden abgeschnitten</string>
+    <string name="fill_row_off">Inaktiv – vollständiges Bild mit schwarzen Balken</string>
+
+    <string name="car_status_idle">AA Suite auf dem Smartphone öffnen und Bildschirmaufnahme erlauben</string>
+    <string name="car_status_confirm">Auf dem Smartphone bestätigen</string>
+    <string name="car_status_error">Berechtigung verweigert: App auf dem Smartphone öffnen und erneut versuchen</string>
+    <string name="car_confirm_on_phone">Bildschirmaufnahme auf dem Smartphone bestätigen</string>
+    <string name="car_accessibility_missing">Bedienungshilfedienst in den Smartphone-Einstellungen aktivieren</string>
+    <string name="car_rotation_locked">Querformat gesperrt</string>
+    <string name="car_rotation_unlocked">Normale Drehung</string>
+    <string name="car_overlay_missing">In AA Suite auf dem Smartphone „Über anderen Apps einblenden“ erlauben</string>
+
+    <string name="search_hint">URL oder Google-Suche</string>
+    <string name="row_search">Suchen oder URL öffnen…</string>
+    <string name="bookmarks_title">Browser-Lesezeichen</string>
+    <string name="btn_bookmarks">Lesezeichen verwalten</string>
+    <string name="btn_add_bookmark">Lesezeichen hinzufügen</string>
+    <string name="edit_bookmark">Lesezeichen bearbeiten</string>
+    <string name="bookmark_title_hint">Name (z. B. YouTube)</string>
+    <string name="bookmark_url_hint">Adresse (z. B. www.youtube.com)</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="cancel">Abbrechen</string>
+
+    <string name="status_idle">Inaktiv. Bildschirmaufnahme erlauben und dann AA Suite im Auto öffnen.</string>
+    <string name="status_waiting">Warten auf Bestätigung…</string>
+    <string name="capture_permission_denied">Bildschirmaufnahme nicht erlaubt</string>
+    <string name="status_ready">Bereit: AA Suite auf dem Autodisplay öffnen</string>
+    <string name="status_mirroring">Bildschirmspiegelung auf dem Autodisplay aktiv</string>
+    <string name="accessibility_on">Bedienungshilfedienst: aktiv ✓</string>
+    <string name="accessibility_off">Bedienungshilfedienst: inaktiv</string>
+    <string name="btn_accessibility">Bedienungshilfe-Einstellungen öffnen</string>
+    <string name="overlay_on">Über anderen Apps einblenden: erlaubt ✓</string>
+    <string name="overlay_off">Über anderen Apps einblenden: nicht erlaubt (für die Querformatsperre erforderlich)</string>
+    <string name="btn_overlay">„Über anderen Apps einblenden“ erlauben</string>
+    <string name="btn_capture">Bildschirmaufnahme erlauben</string>
+    <string name="brightness_on">Energiesparen: aktiv ✓ (minimale Helligkeit während der Spiegelung)</string>
+    <string name="brightness_off">Energiesparen: inaktiv („Systemeinstellungen ändern“ erforderlich)</string>
+    <string name="btn_brightness">Energiesparen aktivieren</string>
+    <string name="accessibility_description">Ermöglicht AA Suite, Berührungen sowie Zurück und Startbildschirm vom Autodisplay aus zu senden</string>
+    <string name="browser_section">Browser: eine Seite auf dem Autodisplay öffnen</string>
+    <string name="btn_open_in_car">Im Auto öffnen</string>
+    <string name="opened_in_car">Auf dem Autodisplay geöffnet</string>
+    <string name="car_not_connected">Das Auto ist nicht verbunden: AA Suite → Webbrowser im Android-Auto-Launcher öffnen</string>
+    <string name="setup_instructions">Android Auto einrichten (einmalig):\n1. Android-Auto-App → Einstellungen → zehnmal auf „Version“ tippen, um den Entwicklermodus zu aktivieren\n2. Menü ⋮ → Entwicklereinstellungen → „Unbekannte Quellen“ aktivieren\n3. Einstellungen → Launcher anpassen → AA Suite aktivieren</string>
+</resources>

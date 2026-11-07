@@ -1,76 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Default English strings -->
     <string name="app_name">AA Suite</string>
 
-    <!-- Notifiche -->
-    <string name="notification_channel">Mirroring attivo</string>
-    <string name="notification_mirroring">Mirroring dello schermo in corso</string>
-    <string name="notification_stop">Interrompi</string>
-    <string name="notification_channel_start">Richiesta di avvio</string>
+    <string name="notification_channel">Screen mirroring active</string>
+    <string name="notification_mirroring">Screen mirroring in progress</string>
+    <string name="notification_stop">Stop</string>
+    <string name="notification_channel_start">Start request</string>
     <string name="start_request_title">AA Suite</string>
-    <string name="start_request_text">Tocca per autorizzare la condivisione dello schermo</string>
+    <string name="start_request_text">Tap to allow screen sharing</string>
 
-    <!-- Menu display auto -->
-    <string name="menu_mirror">Mirroring schermo</string>
-    <!-- Le celle della griglia troncano: titoli brevi -->
+    <string name="menu_mirror">Screen mirroring</string>
     <string name="menu_mirror_short">Mirroring</string>
     <string name="menu_browser_short">Browser</string>
     <string name="menu_youtube_short">YouTube</string>
-    <string name="menu_browser">Browser web</string>
+    <string name="menu_browser">Web browser</string>
     <string name="menu_youtube">YouTube Cast</string>
-    <string name="settings_title">Impostazioni</string>
-    <string name="settings_layout">Layout menu</string>
-    <string name="layout_row_grid">Griglia — tocca per passare a lista</string>
-    <string name="layout_row_list">Lista — tocca per passare a griglia</string>
-    <string name="menu_rotation">Blocco rotazione orizzontale</string>
-    <string name="rotation_row_on">Attivo — tocca per disattivare</string>
-    <string name="rotation_row_off">Non attivo — tocca per forzare l\'orizzontale</string>
-    <string name="menu_fill">Riempi schermo (mirroring)</string>
-    <string name="fill_row_on">Attivo — l\'immagine riempie lo schermo, bordi ritagliati</string>
-    <string name="fill_row_off">Non attivo — immagine intera con bande nere</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_layout">Menu layout</string>
+    <string name="layout_row_grid">Grid - tap to switch to list</string>
+    <string name="layout_row_list">List - tap to switch to grid</string>
+    <string name="menu_rotation">Lock landscape orientation</string>
+    <string name="rotation_row_on">On - tap to turn off</string>
+    <string name="rotation_row_off">Off - tap to force landscape</string>
+    <string name="menu_fill">Fill screen (mirroring)</string>
+    <string name="fill_row_on">On - fills the screen, cropping the edges</string>
+    <string name="fill_row_off">Off - shows the full image with black bars</string>
 
-    <!-- Display auto: mirroring -->
-    <string name="car_status_idle">Apri AA Suite sul telefono e autorizza la cattura</string>
-    <string name="car_status_confirm">Conferma sul telefono</string>
-    <string name="car_status_error">Permesso negato: apri l\'app sul telefono e riprova</string>
-    <string name="car_confirm_on_phone">Conferma la cattura schermo sul telefono</string>
-    <string name="car_accessibility_missing">Attiva il servizio Accessibility nelle impostazioni del telefono</string>
-    <string name="car_rotation_locked">Bloccato in orizzontale</string>
-    <string name="car_rotation_unlocked">Rotazione normale</string>
-    <string name="car_overlay_missing">Concedi "Mostra sopra altre app" nell\'app AA Suite sul telefono</string>
+    <string name="car_status_idle">Open AA Suite on your phone and allow screen capture</string>
+    <string name="car_status_confirm">Confirm on your phone</string>
+    <string name="car_status_error">Permission denied: open the app on your phone and try again</string>
+    <string name="car_confirm_on_phone">Confirm screen capture on your phone</string>
+    <string name="car_accessibility_missing">Enable the accessibility service in your phone settings</string>
+    <string name="car_rotation_locked">Locked in landscape</string>
+    <string name="car_rotation_unlocked">Normal rotation</string>
+    <string name="car_overlay_missing">Allow "Display over other apps" in AA Suite on your phone</string>
 
-    <!-- Display auto: browser -->
-    <string name="search_hint">URL o ricerca Google</string>
-    <string name="row_search">Cerca o apri URL…</string>
-    <string name="bookmarks_title">Preferiti browser</string>
-    <string name="btn_bookmarks">Gestisci preferiti</string>
-    <string name="btn_add_bookmark">Aggiungi preferito</string>
-    <string name="edit_bookmark">Modifica preferito</string>
-    <string name="bookmark_title_hint">Nome (es. YouTube)</string>
-    <string name="bookmark_url_hint">Indirizzo (es. www.youtube.com)</string>
-    <string name="save">Salva</string>
-    <string name="delete">Elimina</string>
-    <string name="cancel">Annulla</string>
+    <string name="search_hint">URL or Google search</string>
+    <string name="row_search">Search or open URL...</string>
+    <string name="bookmarks_title">Browser bookmarks</string>
+    <string name="btn_bookmarks">Manage bookmarks</string>
+    <string name="btn_add_bookmark">Add bookmark</string>
+    <string name="edit_bookmark">Edit bookmark</string>
+    <string name="bookmark_title_hint">Name (e.g. YouTube)</string>
+    <string name="bookmark_url_hint">Address (e.g. www.youtube.com)</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
 
-    <!-- Activity di setup -->
-    <string name="status_idle">Non attivo. Autorizza la cattura schermo, poi apri AA Suite sull\'auto.</string>
-    <string name="status_waiting">In attesa della conferma…</string>
-    <string name="status_ready">Pronto: apri AA Suite sul display dell\'auto</string>
-    <string name="status_mirroring">Mirroring attivo sul display dell\'auto</string>
-    <string name="accessibility_on">Servizio Accessibility: attivo ✓</string>
-    <string name="accessibility_off">Servizio Accessibility: non attivo</string>
-    <string name="btn_accessibility">Apri impostazioni Accessibility</string>
-    <string name="overlay_on">Mostra sopra altre app: concesso ✓</string>
-    <string name="overlay_off">Mostra sopra altre app: non concesso (serve per il blocco orizzontale)</string>
-    <string name="btn_overlay">Concedi "Mostra sopra altre app"</string>
-    <string name="btn_capture">Autorizza cattura schermo</string>
-    <string name="brightness_on">Risparmio energetico: attivo ✓ (luminosità al minimo durante il mirroring)</string>
-    <string name="brightness_off">Risparmio energetico: non attivo (serve "Modifica impostazioni di sistema")</string>
-    <string name="btn_brightness">Attiva risparmio energetico</string>
-    <string name="accessibility_description">Consente ad AA Suite di inviare tocchi, Indietro e Home dal display dell\'auto</string>
-    <string name="browser_section">Browser: apri una pagina sul display dell\'auto</string>
-    <string name="btn_open_in_car">Apri nell\'auto</string>
-    <string name="opened_in_car">Aperto sul display dell\'auto</string>
-    <string name="car_not_connected">L\'auto non è collegata: apri AA Suite → Browser web dal launcher di Android Auto</string>
-    <string name="setup_instructions">Setup Android Auto (una tantum):\n1. App Android Auto → Impostazioni → tocca 10 volte "Versione" per attivare la modalità sviluppatore\n2. Menu ⋮ → Impostazioni sviluppatore → attiva "Fonti sconosciute"\n3. Impostazioni → Personalizza launcher → attiva AA Suite</string>
+    <string name="status_idle">Not active. Allow screen capture, then open AA Suite in your car.</string>
+    <string name="status_waiting">Waiting for confirmation...</string>
+    <string name="capture_permission_denied">Screen capture permission denied</string>
+    <string name="status_ready">Ready: open AA Suite on the car display</string>
+    <string name="status_mirroring">Screen mirroring active on the car display</string>
+    <string name="accessibility_on">Accessibility service: on</string>
+    <string name="accessibility_off">Accessibility service: off</string>
+    <string name="btn_accessibility">Open accessibility settings</string>
+    <string name="overlay_on">Display over other apps: allowed</string>
+    <string name="overlay_off">Display over other apps: not allowed (required for landscape lock)</string>
+    <string name="btn_overlay">Allow display over other apps</string>
+    <string name="btn_capture">Allow screen capture</string>
+    <string name="brightness_on">Power saving: on (minimum brightness while mirroring)</string>
+    <string name="brightness_off">Power saving: off (requires permission to modify system settings)</string>
+    <string name="btn_brightness">Enable power saving</string>
+    <string name="accessibility_description">Allows AA Suite to send taps, Back and Home from the car display</string>
+    <string name="browser_section">Browser: open a page on the car display</string>
+    <string name="btn_open_in_car">Open in car</string>
+    <string name="opened_in_car">Opened on the car display</string>
+    <string name="car_not_connected">The car is not connected: open AA Suite, then Web browser, from the Android Auto launcher</string>
+    <string name="setup_instructions">Android Auto setup (one time):\n1. Android Auto app > Settings > tap Version 10 times to enable developer mode\n2. Menu > Developer settings > enable Unknown sources\n3. Settings > Customize launcher > enable AA Suite</string>
 </resources>

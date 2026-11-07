@@ -60,7 +60,7 @@ class MirrorStateTest {
             .reduce(MirrorEvent.PermissionRequested)
             .reduce(MirrorEvent.PermissionDenied)
         assertEquals(ProjectionStatus.NONE, denied.projection)
-        assertTrue(denied.lastError != null)
+        assertEquals(MirrorError.PERMISSION_DENIED, denied.lastError)
 
         val retried = denied.reduce(MirrorEvent.PermissionRequested)
         assertNull(retried.lastError)
